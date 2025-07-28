@@ -1,0 +1,72 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c1a1b7b1-7311-43cb-9cd9-9438b565c020</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Task_forge__JIRA_Clone__Python_Project.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Task forge (JIRA Clone) Python Project</Name>
+    <RootNamespace>Task forge (JIRA Clone) Python Project</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="comment.py" />
+    <Compile Include="epic.py" />
+    <Compile Include="epic_manager.py" />
+    <Compile Include="file_io.py" />
+    <Compile Include="helpers.py" />
+    <Compile Include="issue.py" />
+    <Compile Include="main.py" />
+    <Compile Include="menu.py" />
+    <Compile Include="notification.py" />
+    <Compile Include="notification_manager.py" />
+    <Compile Include="project.py" />
+    <Compile Include="role_manager.py" />
+    <Compile Include="sprint.py" />
+    <Compile Include="sprint_manager.py" />
+    <Compile Include="subtask.py" />
+    <Compile Include="subtask_manager.py" />
+    <Compile Include="Task_forge__JIRA_Clone__Python_Project.py" />
+    <Compile Include="timelog.py" />
+    <Compile Include="timelog_manager.py" />
+    <Compile Include="user.py" />
+    <Compile Include="utils.py" />
+    <Compile Include="watcher.py" />
+    <Compile Include="watcher_manager.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="activity_log.txt" />
+    <Content Include="comments.txt" />
+    <Content Include="epics.txt" />
+    <Content Include="issues.txt" />
+    <Content Include="notifications.txt" />
+    <Content Include="projects.txt" />
+    <Content Include="sprints.txt" />
+    <Content Include="start.txt" />
+    <Content Include="subtasks.txt" />
+    <Content Include="taskforge.txt" />
+    <Content Include="time_logs.txt" />
+    <Content Include="users.txt" />
+    <Content Include="watchers.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
