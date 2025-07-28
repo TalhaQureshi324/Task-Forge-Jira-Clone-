@@ -1,0 +1,24 @@
+2025-05-04 12:00:00|Epic created: Epic1 under project Project1
+2025-05-04 12:05:00|Time log added: 5 hours for issue 1 by user1@example.com
+2025-05-05 01:04:57 - Project created: first by t@gmail.com
+2025-05-05 01:05:46 - user1@example.com assigned to project first
+2025-05-05 01:06:37 - Issue created: 47b98836-e9cf-47ca-bd85-4dd7482688e2 for first
+2025-05-05 01:07:00 - Issue 47b98836-e9cf-47ca-bd85-4dd7482688e2 updated to Done
+2025-05-05 01:07:33 - Sprint created: test case approval under project first
+2025-05-05 01:08:01 - Epic created: Workers under project first 
+2025-05-05 01:08:41 - Time log added: 12 hours for issue 1 by t@gmail.com
+2025-05-05 01:09:04 - Watcher added: t@gmail.com is now watching issue 2
+2025-05-05 01:09:26 - Notification added for t@gmail.com: we are watching you
+2025-05-05 01:09:54 - Subtask created: user test cases under issue 1
+2025-05-05 01:19:46 - Project created: two by t@gmail.com
+2025-05-05 01:20:02 - user2@example.com assigned to project two
+2025-05-05 01:20:44 - Issue created: 4151a89b-bd6c-4dc2-a0e8-83518a2b7bac for two
+2025-05-05 01:48:08 - Project created: Jira by abc@a.com
+2025-05-05 01:48:36 - t@gmail.com assigned to project jira
+2025-05-05 01:59:34 - Issue 2 priority updated to High 
+2025-05-05 02:01:33 - Issue 1 priority updated to high
+2025-07-28 13:20:27 - Project created: Algo Erp by tq0849@gmail.com
+2025-07-28 13:20:44 - abc@gmail.com assigned to project Algo Erp
+2025-07-28 13:24:52 - Project created: Test by abc@a.com
+2025-07-28 13:25:09 - tq0849@gmail.com assigned to project Test
+2025-07-28 13:26:56 - Issue 11a4ae60-7ffb-41e2-953e-1b58f13496a7 updated to Completed
