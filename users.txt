@@ -1,0 +1,6 @@
+user1@example.com,password123,Admin
+user2@example.com,password456,User
+t@gmail.com,12345,user
+abc@a.com,abc,admin
+h@h,h,user
+tq0849@gmail.com,12345,user
